@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:>
+
+
+
+
+
+    <TextView android:text="@string/red"
+        android:id="@+id/TextView01"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.08"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/orange"
+        android:id="@+id/TextView02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.10"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/yellow"
+        android:id="@+id/TextView03"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.12"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/green"
+        android:id="@+id/TextView04"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.14"
+        android:background="@color/green"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/blue"
+        android:id="@+id/TextView05"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.16"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/indigo"
+        android:id="@+id/TextView06"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.18"
+        android:background="@color/indigo"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"></TextView>
+    <TextView android:text="@string/violet"
+        android:id="@+id/TextView07"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.22"
+        android:background="@color/violet"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"></TextView>
+</LinearLayout>
